@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About ou University</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6534963be5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" class="hide" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="linkedin.com/in/sai-mandapaka-20a1871a0">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa-solid fa-bars" class="hide" onclick="showMenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+
+    </section>
+   
+    <!-- --------------about us content---------------- -->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the world's largest University</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi animi maiores facere iste! Labore in accusamus, eveniet harum veniam saepe consequuntur aspernatur repellendus sapiente, necessitatibus consequatur? Voluptates sequi eligendi atque?</p>
+                <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./eduford_img/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+
+  
+
+
+
+<!-- -------------------------footer----------------- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis atque iure consequuntur repudiandae quae facere officiis eaque, dolore aper <br>
+        iam accusantium incidunt, quia veniam iusto minima dolor alias molestiae, amet consectetur!</p>
+        <div class="icons">
+            <i class="fa fa-facebook-square" ></i>
+            <i class="fa fa-twitter-square" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin-square" ></i>
+        
+
+        </div>
+</section>
+
+    <!-- ----------JavaScript for Toggle Menu------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>

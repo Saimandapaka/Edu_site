@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About ou University</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6534963be5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="./eduford_img/logo.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" class="hide" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="linkedin.com/in/sai-mandapaka-20a1871a0">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa-solid fa-bars" class="hide" onclick="showMenu()"></i>
+        </nav>
+       <h1>Our Courses</h1>
+
+    </section>
+
+    <!-- -----------------course conntent------------------- -->
+
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, totam.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, minima ad dignissimos
+                     labore quisquam repellat magnam quaerat! At quibusdam ea maxime architecto.
+                     Molestias tenetur laudantium beatae recusandae illum? Tempore, odio?</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, minima ad dignissimos
+                     labore quisquam repellat magnam quaerat! At quibusdam ea maxime architecto.
+                     Molestias tenetur laudantium beatae recusandae illum? Tempore, odio?</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, minima ad dignissimos
+                     labore quisquam repellat magnam quaerat! At quibusdam ea maxime architecto.
+                     Molestias tenetur laudantium beatae recusandae illum? Tempore, odio?</p>
+            </div>
+        </div>
+    </section>
+    <!-- ---------------------------facilities------------------ -->
+
+      <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, quasi?</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./eduford_img/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quod necessitatibus ex?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./eduford_img/basketball.png" alt="">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quod necessitatibus ex?</p>
+            </div>
+            <div class="facilities-col">
+                <img src="./eduford_img/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate quod necessitatibus ex?</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+  
+
+
+
+<!-- -------------------------footer----------------- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis atque iure consequuntur repudiandae quae facere officiis eaque, dolore aper <br>
+        iam accusantium incidunt, quia veniam iusto minima dolor alias molestiae, amet consectetur!</p>
+        <div class="icons">
+            <i class="fa fa-facebook-square" ></i>
+            <i class="fa fa-twitter-square" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin-square" ></i>
+        
+
+        </div>
+</section>
+
+    <!-- ----------JavaScript for Toggle Menu------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0"
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px"
+        }
+    </script>
+</body>
+</html>
